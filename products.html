@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - BioTech Solutions</title>
+    <meta name="description" content="Conheça nossos produtos e soluções em biotecnologia para saúde, agricultura e meio ambiente">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="BioTech Solutions Logo">
+            </a>
+            <nav class="nav">
+                <button class="menu-toggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="products.html" class="active">Produtos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner Página -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Nossos Produtos</h1>
+            <p>Soluções inovadoras em biotecnologia para diversos setores</p>
+        </div>
+    </section>
+
+    <!-- Filtro de Categorias -->
+    <section class="category-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">Todos</button>
+                <button class="filter-btn" data-category="health">Saúde</button>
+                <button class="filter-btn" data-category="agriculture">Agricultura</button>
+                <button class="filter-btn" data-category="environment">Meio Ambiente</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Produto 1 -->
+                <div class="product-card" data-category="health">
+                    <div class="product-image">
+                        <img src="img/product1.jpg" alt="Kit de Diagnóstico Molecular">
+                        <div class="product-badge">Novo</div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Kit de Diagnóstico Molecular</h3>
+                        <p class="product-category">Saúde</p>
+                        <p class="product-description">Tecnologia PCR para detecção rápida e precisa de patógenos com 99% de acurácia.</p>
+                        <div class="product-features">
+                            <ul>
+                                <li>Resultados em 30 minutos</li>
+                                <li>Detecção múltipla</li>
+                                <li>Alta sensibilidade</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn">Solicitar informações</a>
+                    </div>
+                </div>
+
+                <!-- Produto 2 -->
+                <div class="product-card" data-category="agriculture">
+                    <div class="product-image">
+                        <img src="img/product2.jpg" alt="Biofertilizante N-Fix">
+                    </div>
+                    <div class="product-content">
+                        <h3>Biofertilizante N-Fix</h3>
+                        <p class="product-category">Agricultura</p>
+                        <p class="product-description">Bactérias fixadoras de nitrogênio que aumentam a produtividade em até 30%.</p>
+                        <div class="product-features">
+                            <ul>
+                                <li>Redução de fertilizantes químicos</li>
+                                <li>Compatível com cultivos orgânicos</li>
+                                <li>Aumento da resistência</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn">Solicitar informações</a>
+                    </div>
+                </div>
+
+                <!-- Produto 3 -->
+                <div class="product-card" data-category="environment">
+                    <div class="product-image">
+                        <img src="img/product3.jpg" alt="Biorreator EcoClean">
+                    </div>
+                    <div class="product-content">
+                        <h3>Biorreator EcoClean</h3>
+                        <p class="product-category">Meio Ambiente</p>
+                        <p class="product-description">Sistema compacto para tratamento de efluentes industriais com microrganismos especializados.</p>
+                        <div class="product-features">
+                            <ul>
+                                <li>Capacidade de 5.000L/dia</li>
+                                <li>Redução de 95% de poluentes</li>
+                                <li>Baixo consumo energético</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn">Solicitar informações</a>
+                    </div>
+                </div>
+
+                <!-- Produto 4 -->
+                <div class="product-card" data-category="health">
+                    <div class="product-image">
+                        <img src="https://source.unsplash.com/random/400x300/?laboratory" alt="Terapia Genética CellRevive">
+                        <div class="product-badge">Inovação</div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Terapia Genética CellRevive</h3>
+                        <p class="product-category">Saúde</p>
+                        <p class="product-description">Técnica de edição genética para tratamento de doenças raras.</p>
+                        <div class="product-features">
+                            <ul>
+                                <li>Protocolo personalizado</li>
+                                <li>Baixos efeitos colaterais</li>
+                                <li>Em fase de testes clínicos</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn">Solicitar informações</a>
+                    </div>
+                </div>
+
+                <!-- Produto 5 -->
+                <div class="product-card" data-category="agriculture">
+                    <div class="product-image">
+                        <img src="https://source.unsplash.com/random/400x300/?crops" alt="Sementes Resistentes BioShield">
+                    </div>
+                    <div class="product-content">
+                        <h3>Sementes Resistentes BioShield</h3>
+                        <p class="product-category">Agricultura</p>
+                        <p class="product-description">Variedades geneticamente melhoradas para resistência a pragas e seca.</p>
+                        <div class="product-features">
+                            <ul>
+                                <li>Soja, milho e trigo disponíveis</li>
+                                <li>Redução de pesticidas</li>
+                                <li>Melhor adaptação climática</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn">Solicitar informações</a>
+                    </div>
+                </div>
+
+                <!-- Produto 6 -->
+                <div class="product-card" data-category="environment">
+                    <div class="product-image">
+                        <img src="https://source.unsplash.com/random/400x300/?bacteria" alt="Consórcio Microbiano OilEater">
+                    </div>
+                    <div class="product-content">
+                        <h3>Consórcio Microbiano OilEater</h3>
+                        <p class="product-category">Meio Ambiente</p>
+                        <p class="product-description">Microrganismos especializados na degradação de hidrocarbonetos para biorremediação.</p>
+                        <div class="product-features">
+                            <ul>
+                                <li>Aplicação em solos e água</li>
+                                <li>Degradação em 30-60 dias</li>
+                                <li>Certificado ambiental</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn">Solicitar informações</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecnologias -->
+    <section class="tech-section">
+        <div class="container">
+            <h2 class="section-title">Tecnologias Utilizadas</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <i class="fas fa-dna"></i>
+                    <h3>Engenharia Genética</h3>
+                    <p>Técnicas avançadas de edição genômica como CRISPR-Cas9.</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-microscope"></i>
+                    <h3>Biologia Sintética</h3>
+                    <p>Design e construção de novos sistemas biológicos.</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-flask"></i>
+                    <h3>Fermentação Industrial</h3>
+                    <p>Processos otimizados para produção em larga escala.</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Automação Laboratorial</h3>
+                    <p>Sistemas robóticos para alta produtividade e precisão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="img/logo.png" alt="BioTech Solutions Logo" class="footer-logo">
+                    <p>Inovando em biotecnologia para um futuro mais saudável e sustentável.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Sobre nós</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua da Inovação, 123 - São Paulo, SP</p>
+                    <p><i class="fas fa-phone"></i> (11) 1234-5678</p>
+                    <p><i class="fas fa-envelope"></i> contato@biotechsolutions.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 BioTech Solutions. Todos os direitos reservados.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
